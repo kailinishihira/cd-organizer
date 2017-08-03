@@ -30,5 +30,20 @@ namespace CD.Controllers
       return View();
     }
 
+    [HttpGet("/cd/add-artist")]
+    public ActionResult AddArtist()
+    {
+      return View();
+    }
+
+    [HttpPost("/cd/all-artists")]
+    public ActionResult AllArtists()
+    {
+    string addArtist = Request.Form["new-artist"];
+    Artist newArtist = new Artist(addArtist);
+
+    List<Artist> Artists = Artist.GetAllArtists();
+    return View(Artists);
+    }
   }
 }

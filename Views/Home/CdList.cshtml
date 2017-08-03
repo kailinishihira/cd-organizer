@@ -6,7 +6,7 @@
 <ul>
     @foreach (var cd in Model)
   {
-  <li>@cd.GetCdTitle()</li>
+  <li><a href="/cd/add-artist">@cd.GetCdTitle()</a></li>
   }
 </ul>
 <a href="/cd/add"><button>Add another CD</button></a>

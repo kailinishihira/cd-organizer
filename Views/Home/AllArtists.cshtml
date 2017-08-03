@@ -1,0 +1,11 @@
+@{
+  Layout = "_Layout";
+}
+<h1>Your List of Artists</h1>
+<ul>
+    @foreach (var artist in Model)
+  {
+  <li>@artist.GetArtistName()</li>
+  }
+</ul>
+<a href="/cd/add"><button>Add another CD</button></a>
