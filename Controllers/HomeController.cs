@@ -24,5 +24,11 @@ namespace CD.Controllers
       return View(newList);
     }
 
+    [HttpGet("/cd/add")]
+    public ActionResult CdAdd()
+    {
+      return View();
+    }
+
   }
 }

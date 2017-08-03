@@ -10,12 +10,12 @@ _Users can enter a specific CD with ability to search by artist and/or CD name._
 
 | Behavior  | Input  | Output  |
 |---|---|---|
-| Create new CD by CD title and show CD | Cd title: "Abbey Road" | Show: "Abbey Road"  |
-| List multiple CD titles  | Cd title: "Love in the Future"  |  Show: "Abbey Road" "Love in the Future" |
-| Click on CD title to add artist name  | Click on: "Abbey Road" | Show: "Add artist" form   |
-| Add artist to specific CD | Add artist: "The Beatles" | Show: "Abbey Road" by "The Beatles" |
-| View artists added | Click button: "View all artists"| Show: "The Beatles" |
-| Click on artist to view their CDs | Click: "The Beatles"| Show: "Abbey Road" |
+| 1. Create new CD by CD title and show CD | Cd title: "Abbey Road" | Show: "Abbey Road"  |
+| 2. List multiple CD titles  | Cd title: "Love in the Future"  |  Show: "Abbey Road" "Love in the Future" |
+| 3. Click on CD title to add artist name  | Click on: "Abbey Road" | Show: "Add artist" form   |
+| 4. Add artist to specific CD | Add artist: "The Beatles" | Show: "Abbey Road" by "The Beatles" |
+| 5. View artists added | Click button: "View all artists"| Show: "The Beatles" |
+| 6. Click on artist to view their CDs | Click: "The Beatles"| Show: "Abbey Road" |
 
 
 ## Setup/Installation Requirements
