@@ -33,6 +33,9 @@ namespace CD.Controllers
     [HttpGet("/cd/add-artist")]
     public ActionResult AddArtist()
     {
+      // Dictionary<string, object> model = new Dictionary<string, object>();
+      // Artist selectedCD = Artist.Find(Int32.Parse(Request.Form["new-title"]))
+
       return View();
     }
 
@@ -44,6 +47,12 @@ namespace CD.Controllers
 
     List<Artist> Artists = Artist.GetAllArtists();
     return View(Artists);
+    }
+
+    [HttpGet("/artist/{id}")]
+    public ActionResult ViewCdCatalog()
+    {
+      return View();
     }
   }
 }

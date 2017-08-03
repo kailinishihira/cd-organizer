@@ -36,10 +36,10 @@ namespace CD.Models
     // {
     //   _instances.Clear();
     // }
-    // public static Category Find(int searchId)
-    // {
-    //   return _instances[searchId-1];
-    // }
+    public static Artist Find(int searchId)
+    {
+      return _artistList[searchId-1];
+    }
 
     public List<CDs> GetCDs()
     {
