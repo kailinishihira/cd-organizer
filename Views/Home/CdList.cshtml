@@ -1,0 +1,11 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Your List of CDs</h1>
+<ul>
+    @foreach (var cd in Model)
+  {
+  <li>@cd.GetCdTitle()</li>
+  }
+</ul>
